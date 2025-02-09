@@ -2,7 +2,7 @@ const VIEW = 'view';
 
 export const getView = () => {
   const searchParams = new URLSearchParams(location.search);
-  return searchParams.get(VIEW) ?? 'signin';
+  return searchParams.get(VIEW) ?? 'tic-tac-toe';
 };
 
 export const setView = (route: string) => {

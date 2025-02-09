@@ -1,7 +1,7 @@
-import Cart from './pages/cart';
+import Playground from './playground';
 
 function App() {
-  return <Cart />;
+  return <Playground />;
 }
 
 export default App;

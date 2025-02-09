@@ -1,13 +1,19 @@
-function Cart(){
+import { IconCart } from '@/components/icon-svg';
+import Footer from '@/components/molecules/CartFooter';
+import Header from '@/components/molecules/CartHeader';
+
+function Cart() {
   return (
-    <div>카트~!</div>
-  )
+    <div>
+      <IconCart size={24} />
+      <Header />
+      <div>카트~!</div>
+      <Footer price={10000} />
+    </div>
+  );
 }
 
-
 export default Cart;
-
-
 
 // interface CartProps {
 //   items: { id: number; name: string; price: number; quantity: number }[];

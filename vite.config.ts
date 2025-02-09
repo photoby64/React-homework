@@ -7,6 +7,7 @@ const viteConfig = defineConfig((env) => {
   const isDevMode = env.mode.includes('development');
 
   return {
+    base: '/React-homework/', // GitHub Pages에서 서브 디렉토리 설정
     plugins: [
       react({
         jsxRuntime: 'automatic',

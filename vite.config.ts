@@ -7,7 +7,7 @@ const viteConfig = defineConfig((env) => {
   const isDevMode = env.mode.includes('development');
 
   return {
-    base: isDevMode ? '/' : './', // GitHub Pages 및 로컬 개발환경 대응
+    base: isDevMode ? '/' : '/React-homework/',
     plugins: [
       react({
         jsxRuntime: 'automatic',
